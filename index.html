@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIR Sahulat AI - FIR Simplifier Pakistan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@300;400;500;600&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#1a3d2b',
+              'primary-light': '#2d6a4f',
+              accent: '#c9a84c',
+              paper: '#f5f0e8',
+              charcoal: '#1c1c1c',
+              'legal-gray': '#7a8a7e',
+              'legal-border': '#ddd6c8',
+            },
+            fontFamily: {
+              serif: ['Libre Baskerville', 'serif'],
+              sans: ['Source Sans 3', 'sans-serif'],
+              urdu: ['Noto Nastaliq Urdu', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Source Sans 3', sans-serif;
+        background-color: #f5f0e8;
+        color: #1c1c1c;
+        min-height: 100vh;
+      }
+      .urdu-text {
+        font-family: 'Noto Nastaliq Urdu', serif;
+        line-height: 2.2;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "jspdf": "https://esm.sh/jspdf@^4.1.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.574.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

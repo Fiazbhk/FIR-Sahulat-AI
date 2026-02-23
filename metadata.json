@@ -1,0 +1,5 @@
+{
+  "name": "FIR Sahulat AI",
+  "description": "An AI-powered FIR filing assistant for Pakistani citizens, providing legal guidance and automated drafting in Urdu and English based on the Pakistan Penal Code.",
+  "requestFramePermissions": []
+}
